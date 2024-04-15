@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 ruby '3.2.2'
 gem 'pry'
-gem 'rubocop', '~> 0.57.2'
+gem 'rubocop', '~> 1.63.1'

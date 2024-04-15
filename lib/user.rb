@@ -16,7 +16,6 @@ class User
   end
 
   def find_by_email(email)
-    @@all_users.find {|user| user.email == email}
+    @@all_users.find { |user| user.email == email }
   end
-
 end
