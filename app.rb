@@ -4,8 +4,8 @@ Bundler.require
 
 # lignes qui appellent les fichiers lib/user.rb et lib/event.rb
 # comme ça, tu peux faire User.new dans ce fichier d'application. Top.
-require_relative 'lib/user'
-require_relative 'lib/event'
+require '/home/zealra/THP/semaine_4/ruby-event-oop/lib/event.rb'
+require '/home/zealra/THP/semaine_4/ruby-event-oop/lib/user.rb'
 
 
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
